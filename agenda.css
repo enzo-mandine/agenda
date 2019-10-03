@@ -1,0 +1,37 @@
+html {
+    background-color: grey;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+table {
+    background-color: aliceblue;
+}
+
+tr td {
+    border: 2px grey solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    vertical-align: top;
+    font-size: 15pt;
+    color: grey;
+    width: 150px;
+    height: 100px;
+}
+
+#calendar {
+    display: flex;
+    flex-direction: row;
+}
+#testaside {
+    width: 20%;
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+}
