@@ -9,24 +9,38 @@ body {
 
 table {
     background-color: aliceblue;
+    border-collapse: collapse;
 }
 
-tr td {
-    border: 2px grey solid;
-    border-left: none;
-    border-right: none;
-    border-top: none;
+#tablebox tr td {
     vertical-align: top;
     font-size: 15pt;
     color: grey;
     width: 150px;
-    height: 100px;
+    height: 25px;
+    margin: 0px;
+}
+
+#tableheure tr td {
+    vertical-align: top;
+    font-size: 15pt;
+    color: grey;
+    height: 25px;
+    margin: 0px;
+}
+
+.heurepleine {
+    border: 1px grey solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
 #calendar {
     display: flex;
     flex-direction: row;
 }
+
 #testaside {
     width: 20%;
     background-color: aquamarine;
@@ -34,4 +48,64 @@ tr td {
 
 main {
     display: flex;
+}
+
+#azerty {
+    display: flex;
+    flex-direction: column;
+}
+
+#flexjours {
+    display: flex;
+    flex-direction: column;
+}
+
+#flexheure {
+    display: flex;
+    flex-direction: row;
+}
+
+#jours tr td {
+    width: 150px;
+    text-align: center;
+}
+
+.activite1 {
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    margin-right: 3%;
+}
+
+.activite2 {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    margin-right: 3%;
+}
+
+.activite3 {
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+
+.blank {
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.flexiflox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.repas {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
 }
