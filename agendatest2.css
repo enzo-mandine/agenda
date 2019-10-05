@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#calendarmonth {
+    background-color:rgb(68, 68, 68);
+    text-align: center;
+    border-collapse: collapse;
+}
+
+ #calendarmonth td {
+    width: 3rem;
+    height: 3rem;
+    border-collapse: collapse;
+}
+
+.minicalendarday {
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+.currentmonth {
+    color: whitesmoke;
+}
+
+.currentmonth:hover {
+    outline: 2px dotted whitesmoke;
+}
+
+.notcurrentmonth {
+    color: black;
+}
+
+.notcurrentmonth:hover {
+    outline: 2px dotted whitesmoke;
+}
+
+.currentday {
+    background-color: blue;
+    color: white;
+    outline: 2px solid black;
+    outline-offset: -6px;
+}
