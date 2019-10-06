@@ -216,36 +216,41 @@ main {
 #color1 {
     background-color: rgb(255, 217, 0);
     width: 45rem;
-    height: 4rem;
+    height: 6rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
 }
 
 #color2 {
     background-color: rgb(0, 204, 255);
     width: 45rem;
-    height: 4rem;
+    height: 6rem;
     margin-bottom: 1rem;
 }
 
 #color3 {
     background-color: rgb(119, 0, 255);
     width: 45rem;
-    height: 4rem;
+    height: 6rem;
     margin-bottom: 1rem;
 }
 
 #color4 {
     background-color: rgb(0, 255, 115);
     width: 45rem;
-    height: 4rem;
+    height: 6rem;
     margin-bottom: 1rem;
 }
 
 #color5 {
     background-color: rgb(255, 0, 212);
     width: 45rem;
-    height: 4rem;
+    height: 6rem;
     margin-bottom: 1rem;
+}
+
+li {
+    text-indent: 2rem;
 }
 
 ul {
@@ -254,8 +259,8 @@ ul {
 }
 
 dd {
-    text-indent: 5rem;
-}
+    padding-left: 10rem;
+    background-color: whitesmoke;
 
 #eventcolor {
     margin-top: auto;
