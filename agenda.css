@@ -332,3 +332,16 @@ dd {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+#buttonadd {
+    position: absolute;
+    top: 3rem;
+    left: 47rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+#buttonadd img {
+    width: 5rem;
+    height: 5rem;
+}
