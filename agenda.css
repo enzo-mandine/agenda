@@ -93,34 +93,79 @@ main {
     text-align: center;
 }
 
+#color1 {
+    background-color: #C5FCB1;
+    width: 45rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
+#color2 {
+    background-color: #EBDBA2;
+    width: 45rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
+#color3 {
+    background-color: #FFAC90;
+    width: 45rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
+#color4 {
+    background-color: #D776E8;
+    width: 45rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
+#color5 {
+    background-color: #B0C8FF;
+    width: 45rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
 .activite1 {
     width: 25%;
     height: 100%;
-    background-color: rgb(255, 217, 0);
+    background-color: #C5FCB1;
 }
 
 .activite2 {
     width: 25%;
     height: 100%;
-    background-color: rgb(0, 204, 255);
+    background-color: #EBDBA2;
 }
 
 .activite3 {
     width: 25%;
     height: 100%;
-    background-color: rgb(119, 0, 255);
+    background-color: #FFAC90;
 }
 
 .activite4 {
     width: 25%;
     height: 100%;
-    background-color: rgb(0, 255, 115);
+    background-color: #D776E8;
 }
 
 .activite5 {
     width: 25%;
     height: 100%;
-    background-color: rgb(255, 0, 212);
+    background-color: #B0C8FF;
 }
 
 .blank {
@@ -140,7 +185,7 @@ main {
 .repas {
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: rgba(139, 139, 139, 0.342);
 }
 
 #calendarmonth {
@@ -152,7 +197,6 @@ main {
     margin-top: auto;
     margin-bottom: auto;
     box-shadow: 0px 0px 20px 0px rgb(59, 59, 59);
-
 }
 
 #calendarmonth td {
@@ -204,7 +248,6 @@ main {
     margin-bottom: auto;
     border-radius: 5rem;
     box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
 }
 
 #login {
@@ -226,7 +269,6 @@ main {
     border: 4px inset whitesmoke;
     border-radius: 50%;
     box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
 }
 
 #eventlist {
@@ -265,56 +307,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-#color1 {
-    background-color: rgb(255, 217, 0);
-    width: 45rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
-}
-
-#color2 {
-    background-color: rgb(0, 204, 255);
-    width: 45rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
-}
-
-#color3 {
-    background-color: rgb(119, 0, 255);
-    width: 45rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
-}
-
-#color4 {
-    background-color: rgb(0, 255, 115);
-    width: 45rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
-}
-
-#color5 {
-    background-color: rgb(255, 0, 212);
-    width: 45rem;
-    height: 6rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
-
 }
 
 li {
