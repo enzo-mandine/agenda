@@ -10,6 +10,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 table {
@@ -150,6 +151,8 @@ main {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: 0px 0px 20px 0px rgb(59, 59, 59);
+
 }
 
 #calendarmonth td {
@@ -196,21 +199,72 @@ main {
     flex-direction: column;
     width: 90%;
     height: 95%;
-    background-color: bisque;
+    background-color: whitesmoke;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 5rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #login {
-    height: 15%;
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+#userlogin {
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15pt;
+    text-decoration: underline;
+}
+
+#userpics img {
+    width: 10rem;
+    height: 10rem;
+    border: 4px inset whitesmoke;
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #eventlist {
     display: flex;
     flex-direction: column;
-    background-color: brown;
     padding: 5%;
+}
+
+#changemonth {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    background-color: grey;
+    margin: auto;
+    z-index: 3;
+    color: whitesmoke;
+}
+
+#month {
+    text-align: center;
+    font-family: 'Yesteryear', cursive;
+    font-size: 20pt;
+}
+
+#prev {
+    font-size: 30pt;
+    line-height: 1.2rem;
+}
+
+#next {
+    font-size: 30pt;
+    line-height: 1.2rem;
+}
+
+#align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #color1 {
@@ -219,6 +273,8 @@ main {
     height: 6rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #color2 {
@@ -226,6 +282,9 @@ main {
     width: 45rem;
     height: 6rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #color3 {
@@ -233,6 +292,9 @@ main {
     width: 45rem;
     height: 6rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #color4 {
@@ -240,6 +302,9 @@ main {
     width: 45rem;
     height: 6rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 #color5 {
@@ -247,6 +312,9 @@ main {
     width: 45rem;
     height: 6rem;
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+
 }
 
 li {
@@ -261,6 +329,7 @@ ul {
 dd {
     padding-left: 10rem;
     background-color: whitesmoke;
+}
 
 #eventcolor {
     margin-top: auto;
