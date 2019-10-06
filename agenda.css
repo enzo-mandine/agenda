@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: grey;
+    background-color: aliceblue;
 }
 
 body {
@@ -63,6 +63,19 @@ tr {
 #aside1 {
     width: 50%;
     background-color: lightgray;
+}
+
+#aside2 {
+    width: 70%;
+    height: 100%;
+}
+
+#html2 {
+    background: url(bgformulaire.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 main {
@@ -199,6 +212,21 @@ main {
     box-shadow: 0px 0px 20px 0px rgb(59, 59, 59);
 }
 
+#calendarmonth2 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px 0px rgb(59, 59, 59);
+    width: 35%;
+    margin-right: 5rem;
+}
+
+#calendarmonth2 td {
+    width: 3rem;
+    height: 3rem;
+    border-collapse: collapse;
+}
+
 #calendarmonth td {
     width: 3rem;
     height: 3rem;
@@ -243,9 +271,22 @@ main {
     flex-direction: column;
     width: 90%;
     height: 95%;
+    padding: 1rem;
     background-color: whitesmoke;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 5rem;
+    box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
+}
+
+#alignementaside2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    width: 90%;
+    height: 95%;
+    background-color: whitesmoke;
     border-radius: 5rem;
     box-shadow: 20px 20px 20px 0px rgba(59, 59, 59, 0.2);
 }
@@ -287,7 +328,24 @@ main {
     color: whitesmoke;
 }
 
+#changemonth2 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    z-index: 3;
+    color: whitesmoke;
+    width: 35%;
+}
+
 #month {
+    text-align: center;
+    font-family: 'Yesteryear', cursive;
+    font-size: 20pt;
+}
+
+
+#month2 {
     text-align: center;
     font-family: 'Yesteryear', cursive;
     font-size: 20pt;
@@ -344,4 +402,48 @@ dd {
 #buttonadd img {
     width: 5rem;
     height: 5rem;
+}
+
+#aligncalendarinput {
+    display: flex;
+}
+
+#inputalign {
+    position: absolute;
+    top: 9rem;
+    left: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+#inputalign input {
+    border: 1px solid grey;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 1rem;    
+}
+
+#details {
+    width: 50%;
+    height: 25%;
+}
+
+#description {
+    height: 20em;
+    resize: none;
+    border-radius: 10px;
+    padding-left: 1rem;    
+}
+
+.margin {
+margin-bottom: 1rem;
+}
+
+#titreform {
+    margin-bottom: 2rem;
+    font-family: 'Yesteryear', cursive;
+    font-size: 30pt;
+
 }
